@@ -1,0 +1,89 @@
+.head {
+position:absolute;
+top:50px;
+left:150px;
+background-color:black;
+border-radius: 50%;
+width:100px;  
+height:100px;
+}
+
+.body {
+position:absolute;
+top:130px;
+left:100px;
+background-color:red;
+border-radius: 50%;
+border: solid 5px black;
+width:200px;  
+height:200px;
+}
+
+.stripe {
+position:absolute;
+top:130px;
+left:200px;
+background-color:black;
+width:5px;  
+height:210px;
+}
+
+.antenna {
+position:absolute;
+top:30px;
+left:170px;
+background-color:black;
+border-radius: 35%;
+width:8px;  
+height:40px;
+}
+
+.antenna2 {
+position:absolute;
+top:30px;
+left:220px;
+background-color:black;
+border-radius: 35%;
+width:8px;  
+height:40px;
+}
+
+.dot {
+position:absolute;
+top:170px;
+left:135px;
+background-color:black;
+border-radius: 50%;
+width:50px;  
+height:50px;
+}
+
+.dot2 {
+position:absolute;
+top:250px;
+left:135px;
+background-color:black;
+border-radius: 50%;
+width:50px;  
+height:50px;
+}
+
+.dot3 {
+position:absolute;
+top:170px;
+left:225px;
+background-color:black;
+border-radius: 50%;
+width:50px;  
+height:50px;
+}
+
+.dot4 {
+position:absolute;
+top:250px;
+left:225px;
+background-color:black;
+border-radius: 50%;
+width:50px;  
+height:50px;
+}

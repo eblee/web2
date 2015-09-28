@@ -1,0 +1,90 @@
+.head {
+position:absolute;
+top:150px;
+left:500px;
+background-color:gray;
+border-radius: 50%;
+width:150px;  
+height:150px;
+}
+
+.snout {
+position:absolute;
+top:180px;
+left:630px;
+width: 0;
+height: 0;
+border-top: 45px solid transparent;
+border-left: 100px solid gray;
+border-bottom: 45px solid transparent;
+}
+
+.nose {
+position:absolute;
+top:210px;
+left:700px;
+background-color:gray;
+border-radius: 50%;
+width:30px;  
+height:30px;	
+}
+
+.ear1 {
+position:absolute;
+top:95px;
+left:516px;
+width:100px;  
+height:100px;
+background-color:gray;
+border-radius: 50%;
+}
+
+.ear2 {
+position:absolute;
+top:250px;
+left:515px;
+width:100px;  
+height:100px;
+background-color:gray;
+border-radius: 50%;
+}
+
+.eye1 {
+position:absolute;
+top:240px;
+left:580px;
+width:30px;  
+height:30px;
+background-color: white;
+border-radius: 50%;
+}
+
+.eye2 {
+position:absolute;
+top:175px;
+left:580px;
+width:30px;  
+height:30px;
+background-color: white;
+border-radius: 50%;
+}
+
+.body {
+position:absolute;
+top:160px;
+left:300px;
+width:250px;  
+height:130px;
+background-color:gray;
+border-radius: 30%;
+}
+
+.tail {
+position:absolute;
+top:222px;
+left:100px;
+width:200px;  
+height:10px;
+background-color:gray;
+}
+

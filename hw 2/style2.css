@@ -1,0 +1,80 @@
+.body {
+	position:absolute;
+	width:200px;
+	height:150px;
+	background-color:black;
+	border-radius: 35%;
+	top:150px;
+	left:200px;
+}
+
+
+.wing {
+	position:absolute;
+	width:90px;
+	height:90px;
+	background-color:white;
+	border: 5px solid;
+	border-radius: 50%;
+	top:80px;
+	left:195px;
+}
+
+.wing2 {
+	position:absolute;
+	width:110px;
+	height:110px;
+	background-color:white;
+	border: 5px solid;
+	border-radius: 50%;
+	top:70px;
+	left:240px;
+}
+
+.stripe {
+	width:20px;
+	height:150px;
+	background-color:yellow;
+	position:absolute;
+	top:150px;
+	left:295px;
+}
+
+.stripe2 {
+	width:20px;
+	height:150px;
+	background-color:yellow;
+	position:absolute;
+	top:150px;
+	left:260px;
+}
+
+.stripe3 {
+	width:20px;
+	height:150px;
+	background-color:yellow;
+	position:absolute;
+	top:150px;
+	left:330px;
+}
+
+.tail {
+	width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-right: 30px solid black;
+	border-bottom: 15px solid transparent;
+	position:absolute;
+	top:210px;
+	left:176px;
+}
+
+.eye {
+position:absolute;
+	width:20px;
+	height:20px;
+	background-color:white;
+	border-radius: 50%;
+	left:370px;
+	top:190px;
+}
