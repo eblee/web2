@@ -1,0 +1,263 @@
+.board {
+	position:absolute;
+	width:535px;
+	height:310px;
+	top:100px;
+	left:100px;
+	background-color:black;
+}
+
+.dot1 {
+position:absolute;
+width:40px;
+height:40px;
+background-color:#303030 ;
+left:470px;
+top:135px;
+border-radius: 50%;
+transition:background-color 2s linear;
+}
+
+.dot1:hover {
+  background-color:blue;
+ }
+
+.dot2 {
+position:absolute;
+width:40px;
+height:40px;
+background-color:#303030 ;
+left:520px;
+top:135px;
+border-radius: 50%;
+transition:background-color 0.4s ease;
+}
+
+.dot2:hover {
+  background-color:red;
+ }
+
+.dot3 {
+position:absolute;
+width:40px;
+height:40px;
+background-color:#303030 ;
+left:570px;
+top:135px;
+border-radius: 50%;
+transition:background-color 1.5s ease-out;
+}
+
+.dot3:hover {
+  background-color:yellow;
+}
+
+.line1 {
+position:absolute;
+width:180px;
+height:15px;
+background-color:#282828;
+left:140px;
+top:150px;
+}
+
+.line2 {
+position:absolute;
+width:50px;
+height:25px;
+background-color:#484848;
+left:120px;
+top:145px;
+}
+
+.line2:hover {
+ -webkit-animation:linemove 1s linear normal;
+}
+
+@-webkit-keyframes linemove {
+  0% {right:0%; }
+  50% {left:20%;}
+  100% {right:0%;}
+}
+
+.key1 {
+position:absolute;
+width:50px;
+height:150px;
+background-color:white;
+border: 5px solid black;
+top:110px;
+left:70px;
+transition:  transform 0.3s linear, 
+ }
+
+ .key1:active { 
+ transform:skew(180deg);
+ }
+
+.key2 {
+position:absolute;
+width:50px;
+height:150px;
+background-color:white;
+border: 5px solid black;
+left:125px;
+top:110px;
+transition:  transform 0.1s linear, 
+ }
+
+ .key2:active { 
+ transform:rotate(20deg);
+ }
+
+.key3 {
+position:absolute;
+width:50px;
+height:150px;
+background-color:white;
+border: 5px solid black;
+top:110px;
+left:180px;
+transition:transform 0.7s ease-in-out, 
+background-color 1s ease-in;
+}
+.key3:active { 
+transform: rotate(720deg) scale(2);
+background-color:blue;
+}
+
+.key4 {
+position:absolute;
+width:50px;
+height:150px;
+background-color:white;
+border: 5px solid black;
+top:110px;
+left:235px;
+transition:transform 0.6s ease-in-out, 
+}
+.key4:active { 
+transform: skew(-90deg) scale(0.5);
+}
+
+.key5 {
+position:absolute;
+width:50px;
+height:150px;
+background-color:white;
+border: 5px solid black;
+top:110px;
+left:290px;
+}
+.key5:active {
+ -webkit-animation:keyymove 0.7s linear normal;
+}
+
+@-webkit-keyframes keyymove {
+   0% { -webkit-transform: translate(0,0); }
+   50%  { -webkit-transform: translate(225px,350px); }
+   100% {  -webkit-transform: translate(450px, 0); }
+}
+
+.key6 {
+position:absolute;
+width:50px;
+height:150px;
+background-color:white;
+border: 5px solid black;
+top:110px;
+left:345px;
+}
+
+.key6:active {
+ -webkit-animation:keymove 1s linear;
+}
+
+@-webkit-keyframes keymove {
+  0% {top:0%; }
+  50% {bottom:50%;}
+  100% {top:0%;}
+}
+
+.key7 {
+position:absolute;
+width:50px;
+height:150px;
+background-color:white;
+border: 5px solid black;
+top:110px;
+left:400px;
+transition:  transform 0.6s linear, 
+background-color 0.3s ease-in;
+ }
+
+ .key7:active { 
+ transform:rotate(190deg);
+ background-color:purple;
+ }
+
+.bkey1 {
+position:absolute;
+width:45px;
+height:100px;
+background-color:black;
+top:115px;
+left:105px;
+transition:transform 0.4s ease-in-out, 
+ }
+ .bkey1:hover { 
+ transform:rotate(360deg) skew(30deg);
+ }
+
+.bkey2 {
+position:absolute;
+width:45px;
+height:100px;
+background-color:black;
+top:115px;
+left:160px;
+transition:transform 0.6s ease-in-out, 
+}
+
+.bkey2:hover { 
+ transform: translateX(10px) rotate(10deg) translateY(5px)
+}
+.bkey3 {
+position:absolute;
+width:45px;
+height:100px;
+background-color:black;
+top:115px;
+left:215px;
+transition:  transform 1.5s ease-in-out, 
+ }
+ .bkey3:hover { 
+ transform:scale(2);
+ }
+
+.bkey4 {
+position:absolute;
+width:45px;
+height:100px;
+background-color:black;
+top:115px;
+left:325px;
+transition:  transform 0.8s ease-in-out, 
+ }
+ .bkey4:hover { 
+ transform:rotate(720deg);
+ }
+
+.bkey5 {
+position:absolute;
+width:45px;
+height:100px;
+background-color:black;
+top:115px;
+left:380px;
+transition:  transform 0.5s ease-in-out, 
+ }
+
+ .bkey5:hover { 
+ transform:rotate(20deg);
+ }
