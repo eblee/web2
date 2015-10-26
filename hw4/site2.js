@@ -9,7 +9,7 @@ rotate(120);
 forward(size);
 }
 
-speed(90000)
+speed(900000000000000000000000000000000000000000000000000000000000)
 
 function shape(offset) {
   for(var x = 0; x<12; x++) {
